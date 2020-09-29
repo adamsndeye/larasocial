@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'url' => env('mysql://styjsnn52yl1yhv8:aiwx43ac3nye2gg9@sm9j2j5q6c8bpgyq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bzlqvuk2amf7ae4t'),
+            'host' => env('DB_HOST', 'sm9j2j5q6c8bpgyq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'),
+            'port' => env('DB_PORT', '	3306'),
+            'database' => env('DB_DATABASE', 'bzlqvuk2amf7ae4t'),
+            'username' => env('DB_USERNAME', 'styjsnn52yl1yhv8'),
+            'password' => env('DB_PASSWORD', 'aiwx43ac3nye2gg9'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
