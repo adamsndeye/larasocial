@@ -63,3 +63,5 @@
         "post-install-cmd" : [ "php artisan clair-compilé" , "chmod -R 777 public /" ] 
     }
 }
+
+
